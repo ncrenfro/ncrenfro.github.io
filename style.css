@@ -35,8 +35,6 @@ body {
     margin: 0; 
 }
 
-
-
 header {
     background-color: #333;
     color: white;  
@@ -53,12 +51,15 @@ header {
 .ContentRight{
     text-align: right;
 }
+.DisplayInline{
+    display: inline;
+}
 
 #Wrapper{
     margin: 5px;
 }
 
-#footer{
+#Footer{
     margin: 5px;
 }
 
