@@ -21,31 +21,35 @@
 .NavLink a:hover:not(.active) {
     background-color: #111;
 }
-
+.DivBack{
+    background-color: #333;
+    padding: 14px;
+}
 .active {
     background-color: #04AA6D;
 }
 
 body {
     background-color: steelblue;
+    padding: 0; 
 }
 
-#TopBanner {
-    padding-left: 14px;
-    color: white;
-}
+
 
 header {
     background-color: #333;
+    color: white;
+    padding: 0;    
 }
+
 
 #BSULogo {
     width: 100px;
     height: auto;
 }
 
-* {
-    box-sizing: border-box;
+.ContentRight{
+    text-align: end;
 }
     
 [class*="col-"] {
@@ -74,9 +78,8 @@ header {
 
 [class*="row"] {
     float: left;
-    padding: 15px;
     width: 100%;
-    background-color: white;        
+    padding: 0;       
 }
     
 .row::after {
