@@ -1,0 +1,46 @@
+#NavBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    }
+
+    .NavLink {
+        float: left;
+    }
+
+    .NavLink a {
+       display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .NavLink a:hover:not(.active) {
+        background-color: #111;
+    }
+
+    .active {
+        background-color: #04AA6D;
+    }
+
+    body {
+        background-color: steelblue;
+    }
+
+    #TopBanner {
+        padding-left: 14px;
+        color: white;
+    }
+
+    header {
+        background-color: #333;
+
+    }
+
+    #BSULogo {
+        width: 100px;
+        height: auto;
+    }
