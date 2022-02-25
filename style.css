@@ -96,7 +96,7 @@ a {
 				color: #AA6b39;
 			}
 
-/*Content area*/
+/*-------------------------------------Content area-------------------------------------*/
 #Wrapper {
 	background-color: #ECECEC;
 	border-radius: 20px;
@@ -105,9 +105,7 @@ a {
 	overflow: hidden;
 }
 
-#Wrapper img#NathanPNG{ /* Nathan */
-    float: right;
-}
+
 
 	#Wrapper h2 {
 		padding: 1rem 0;
@@ -122,7 +120,9 @@ a {
 	overflow: hidden;
 	font-size: 1.5rem;
 }
-
+.WrapperMain img#NathanPNG{ /* Nathan */
+    float: right;
+}
 .IframePages{ /* Nathan */
 	background-color: #ECECEC;
 	font-size: 1.5rem;	
@@ -151,7 +151,6 @@ a {
     padding-top: 5px;
 	border-radius: 10px;
 	margin-bottom: 1rem;
-
 }
 
 #NathanPNG{ /* Nathan */
@@ -165,7 +164,21 @@ a {
 #NathanAbout{ /* Nathan */
 	padding: .5rem;
 }
-/*side links*/
+#NathanMainPic{ /* Nathan */
+	width: 200px;
+    height: auto;
+	margin-bottom: 1rem;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #333333;
+}
+#elite{
+	width:auto;
+	height:auto;
+	clear:right;
+	float: right;
+	border-radius: 20px;
+}
+/*----------------------------side links--------------------------------------*/
 #SideLinks {
 	width: 20%;
 	float: left;
@@ -189,7 +202,7 @@ a {
 			text-decoration: underline;
 		}
 
-/*Blog Articles*/
+/*----------------------------------------------Blog Articles----------------------------------------*/
 #Posts {
 	width: 80%;
 	float: right;
@@ -219,7 +232,7 @@ a {
 		padding: 0.5rem;
 	}
 
-/*Footer*/
+/*----------------------------------------------------Footer----------------------------------*/
 #Footer {
 	background-color: #AA6b39;
 	border-radius: 20px;
@@ -243,4 +256,4 @@ a {
 
 
 
-/* harrison changes  */
+
