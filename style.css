@@ -69,9 +69,6 @@ a {
     #Banner a#BSULink{ /* Nathan */
         float: left;
     }
-    #Banner img#NathanPNG{ /* Nathan */
-        float: right;
-    }
 
 	#Banner nav { /* Nathan */
 		background-color: #AA6b39;
@@ -106,6 +103,10 @@ a {
 	box-shadow: 5px 5px 5px #333333;
 	margin-bottom: 1.5rem;
 	overflow: hidden;
+}
+
+#Wrapper img#NathanPNG{ /* Nathan */
+    float: right;
 }
 
 	#Wrapper h2 {
