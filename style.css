@@ -161,6 +161,10 @@ a {
 	border-radius: 20px;
 	box-shadow: 5px 5px 5px #333333;
 }
+#NathanPNG:hover{
+	width: 400px;
+    height: auto;	
+}
 #NathanAbout{ /* Nathan */
 	padding: .5rem;
 }
