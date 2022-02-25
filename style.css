@@ -178,6 +178,7 @@ a {
 	clear:right;
 	float: right;
 	border-radius: 20px;
+	box-shadow: 5px 5px 5px #333333;
 }
 /*----------------------------side links--------------------------------------*/
 #SideLinks {
