@@ -122,7 +122,6 @@ a {
 }
 .WrapperMain img#NathanPNG{ /* Nathan */
     float: right;
-	box-shadow: 5px 5px 5px #333333;
 }
 .IframePages{ /* Nathan */
 	background-color: #ECECEC;
@@ -161,6 +160,7 @@ a {
     padding-top: 5px;
 	padding-bottom: 5px;
 	border-radius: 20px;
+	box-shadow: 5px 5px 5px #333333;
 }
 #NathanAbout{ /* Nathan */
 	padding: .5rem;
