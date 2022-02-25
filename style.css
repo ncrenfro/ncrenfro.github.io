@@ -156,9 +156,7 @@ a {
 #NathanPNG{ /* Nathan */
 	width: 200px;
     height: auto;
-    padding-right: 5px;
-    padding-top: 5px;
-	padding-bottom: 5px;
+	margin: 5px;
 	border-radius: 20px;
 	box-shadow: 5px 5px 5px #333333;
 }
@@ -179,6 +177,7 @@ a {
 	float: right;
 	border-radius: 20px;
 	box-shadow: 5px 5px 5px #333333;
+	margin-top: 10px;
 }
 /*----------------------------side links--------------------------------------*/
 #SideLinks {
