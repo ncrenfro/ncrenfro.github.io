@@ -118,8 +118,9 @@ a {
 	overflow: hidden;
 	font-size: 1.5rem;
 }
-.WrapperMain img#NathanPNG{ /* Nathan */
+#Banner img#NathanPNG{ /* Nathan */
     float: right;
+	clear:none;
 }
 .WrapperMain h2#NABout{ /* Nathan */
 	clear:both;
@@ -137,12 +138,14 @@ a {
 #About{ /* Nathan */
 	color: black;
 	font-size: 3rem;
+	float:left;
 }
 
 #Nathan{ /* Nathan */
 	font-family: 'Quintessential', cursive;
 	float: center;
     clear: none;
+	margin-top: 5rem;
 }
 
 #BSULogo { /* Nathan */
@@ -178,8 +181,8 @@ a {
 #elite{
 	width:auto;
 	height:auto;
-	clear:right;
-	float: right;
+	float: left;
+	clear: both;
 	border-radius: 20px;
 	box-shadow: 5px 5px 5px #333333;
 	margin-top: 10px;
@@ -194,12 +197,108 @@ a {
     animation: bounce 0.5s cubic-bezier(.5,0.05,1,.5);
     animation-direction: alternate;
     animation-iteration-count: infinite;
-    float:left;
+    float:right;
+	clear: both;
   }
   @keyframes bounce {
     from { transform: translate3d(0, 0, 0);     }
     to   { transform: translate3d(0, 200px, 0); }
   }
+/*----------------------------Snake--------------------------------------*/
+#snakeGame{
+	clear: left;
+	background-color: #226765;
+	width: 500px;
+	float: left;
+	padding: 1rem;
+	border-radius: 2rem;
+	margin-top: 1rem;
+	color:#DCDCDC;
+}
+#snakeGame h3{
+	color:#DCDCDC;
+}
+.gridSnake {
+    width: 200px;
+    height: 200px;
+	margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    background-color: lightblue;
+  }
+  
+  .gridSnake div {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .snake {
+    border-radius: 3px;
+    background-color: green;
+	background-image: radial-gradient(green, rgb(69, 187, 69));
+  }
+  
+  .apple {
+    background-color: red;
+	background-image: radial-gradient(red, darkred);
+    border-radius: 7px 7px 9px 9px;
+  }
+
+/*----------------------------frogger--------------------------------------*/
+#frogger{
+	clear: right;
+	background-color: #226765;
+	width: 500px;
+	float: right;
+	padding: 1rem;
+	border-radius: 2rem;
+	margin-top: 1rem;
+	color:#DCDCDC;
+}
+#frogger h3{
+	color:#DCDCDC;
+}
+.gridFrog {
+    border: 1px solid black;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+	margin: auto;
+}
+
+.gridFrog div {
+    height: 20px;
+    width: 20px;
+}
+
+.ending-block {
+    background-color: red;
+}
+
+.starting-block {
+    background-color: blue;
+}
+.l1, .l2, .l3 {
+    background-color: brown;
+}
+
+.l4, .l5 {
+    background-color: lightblue;
+}
+
+.c1 {
+    background-color: black;
+}
+
+.c2, .c3 {
+    background-color: lightgrey;
+}
+
+.frog {
+    background-color: green;
+}
 /*----------------------------side links--------------------------------------*/
 #SideLinks {
 	width: 20%;

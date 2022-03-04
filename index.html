@@ -5,9 +5,8 @@
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
         <title>Nathan Renfro</title>
         <link rel='stylesheet' href='style.css'>
-        <script>
-            var snd = new Audio("intro.mp3");
-        </script>
+        <script src="javascripts/snake.js" charset="utf-8">var snd = new Audio("intro.mp3");</script>
+
     </head>
 
     <body>
@@ -19,12 +18,15 @@
 
             <header id="Banner">
                 <a href="https://www.boisestate.edu/" id="BSULink">
-                    <img src="Boise state.jpg" alt="Boise State Logo" id="BSULogo" />
+                    <img src="images/Boise state.jpg" alt="Boise State Logo" id="BSULogo" />
                 </a>
 
+                <div>
+                    <img src="images/Nathan.png" alt="Picture of Nathan" id="NathanPNG" onclick="snd.play()" />
+                </div>
 
                 <h1 id="Nathan">Nathan Renfro</h1>
-
+              
 
                 <nav id="Navigation">
                     <ul id="NavBar">
@@ -56,14 +58,14 @@
                         <h2 id="NAbout">About me</h2>
                         <hr>
 
-                        <img src="Nathan.png" alt="Picture of Nathan" id="NathanPNG" onclick="snd.play()" />
+
 
                         <p>Sophomore in the GIMM program.</p>
                         <p>Working on improving my woodcarving.</p>
                         <p>Nontraditional student (older person).</p>
 
                     </div>
-                    <div></div>
+                 
 
                 </section>
                 <div class="ball"></div>
@@ -73,7 +75,211 @@
                     allowfullscreen></iframe>
                 <br>
 
+                <!-- Snake -->
+                <div id="snakeGame">
+                    <h1>Snake</h1>
+                    <h3>Use wasd to move </h3>
+                    <button class='startSnake'>Start/Restart</button>
+                    <div class='scoreSnake'>Score:<span id="snakeScore">0</span></div>
 
+                    <div class='gridSnake'>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+
+                <!-- Frogger -->
+                <div id="frogger">
+                    <h1>Frogger</h1>
+                    <h3>Seconds left: <span id="time-left">20</span></h3>
+                    <h3>Result: <span id="result"></span></h3>
+                    <h3>Used wasd to move</h3>>
+
+                    <button id="start-pause-button">Start/Pause</button>
+
+                    <div class="gridFrog">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div class="ending-block"></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div class="log-left l1"></div>
+                        <div class="log-left l2"></div>
+                        <div class="log-left l3"></div>
+                        <div class="log-left l4"></div>
+                        <div class="log-left l5"></div>
+                        <div class="log-left l1"></div>
+                        <div class="log-left l2"></div>
+                        <div class="log-left l3"></div>
+                        <div class="log-left l4"></div>
+                        <div class="log-right l5"></div>
+                        <div class="log-right l1"></div>
+                        <div class="log-right l2"></div>
+                        <div class="log-right l3"></div>
+                        <div class="log-right l4"></div>
+                        <div class="log-right l5"></div>
+                        <div class="log-right l1"></div>
+                        <div class="log-right l2"></div>
+                        <div class="log-right l3"></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div class="car-left c1"></div>
+                        <div class="car-left c2"></div>
+                        <div class="car-left c3"></div>
+                        <div class="car-left c1"></div>
+                        <div class="car-left c2"></div>
+                        <div class="car-left c3"></div>
+                        <div class="car-left c1"></div>
+                        <div class="car-left c2"></div>
+                        <div class="car-left c3"></div>
+                        <div class="car-right c1"></div>
+                        <div class="car-right c2"></div>
+                        <div class="car-right c3"></div>
+                        <div class="car-right c1"></div>
+                        <div class="car-right c2"></div>
+                        <div class="car-right c3"></div>
+                        <div class="car-right c1"></div>
+                        <div class="car-right c2"></div>
+                        <div class="car-right c3"></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div class="starting-block frog"></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <script src="javascripts/frogger.js" charset="utf-8"></script>
+                </div>
             </div>
             <!-- Main Content Section-->
             <hr>

@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    
+
     <link rel="stylesheet" href="styleGames.css">
-    <!-- Script at top for memory, connect 4, snake, & tetris-->
+    <!-- Script at top for memory, connect 4, snake,-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap" rel="stylesheet">
     <script src="app.js" charset="utf-8"></script>
 </head>
@@ -100,10 +100,12 @@
     -->
 
     <!-- ----------------------------------------------------- Snake 
-    <button class='start'>Start/Restart</button>
-    <div class='score'>Score:<span>0</span></div>
+    <h1>Snake</h1>
+    <h3>Use wasd or arrow keys to move </h3>
+    <button class='startSnake'>Start/Restart</button>
+    <div class='scoreSnake'>Score:<span id="snakeScore">0</span></div>
 
-    <div class='grid'>
+    <div class='gridSnake'>
         <div></div>
         <div></div>
         <div></div>
@@ -205,14 +207,14 @@
         <div></div>
         <div></div>
     </div>
+    
     -->
-
     <!-- ----------------------------------------------------- Space invaders 
     <h1 class="results">0</h1>
     <div class="grid"></div>
     -->
 
-    <!-- ----------------------------------------------------- Frogger 
+    <!-- ----------------------------------------------------- Frogger -->
     <h3>Seconds left: <span id="time-left">20</span></h3>
     <h3>Result: <span id="result"></span></h3>
 
@@ -301,13 +303,49 @@
         <div></div>
         <div></div>
     </div>
-    -->
-
-    <!-- ----------------------------------------------------- Tetris -->
-
-
-    <!-- Script at bottom for whack a mole, space invaders, frogger-->
     
+
+    <!-- ----------------------------------------------------- Tetris 
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger">
+            <div></div>
+        </div>
+        <div class="menu">
+            <div class="menu-content">
+                <h2 class="t-ucase">rules</h2>
+                <p class="rules"> Please use the <b class="key">UP</b> key to rotate your tetromino, and <b
+                        class="key">LEFT</b>
+                    and <b class="key">RIGHT</b> to <br> move across the board. Pressing <b class="key">DOWN</b> will
+                    speed up the
+                    tetromino.</p>
+                <button class="close fw-400">X</button>
+            </div>
+        </div>
+    </div>
+    <header>
+        <h1 class="fw-300 t-ucase">Welcome <br><span class="fw-400 t-wide t-big t-ucase">to tetris</span></h1>
+    </header>
+    <main class="game-area">
+        <div class="game">
+            <div class="grid"></div>
+        </div>
+        <section>
+            <div class="display">
+                <h1 class="score fw-400 t-ucase">Your Score <br> <span class="score-display t-ucase fw-300">0</span>
+                </h1>
+                <div class="previous-shape">
+                    <div class="previous-grid"></div>
+                </div>
+                <h2 class="lines-display fw-400 t-ucase">Lines:<span class="lines-score">0</span></h2>
+            </div>
+            <button class="button t-ucase" href="#">Start / Pause</button>
+            <small class='footer t-ucase'>made with love 2019</small>
+        </section>
+    </main>
+    -->
+    <!-- Script at bottom for whack a mole, space invaders, frogger-->
+
 </body>
 
 
