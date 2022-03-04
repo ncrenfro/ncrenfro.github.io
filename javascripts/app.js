@@ -5,51 +5,51 @@ document.addEventListener('DOMContentLoaded', () => {
     const cardArray = [
         {
             name: 'Guild',
-            img: 'images/Guild.png'
+            img: '../images/Guild.png'
         },
         {
             name: 'Guild',
-            img: 'images/Guild.png'
+            img: '../images/Guild.png'
         },
         {
             name: 'House',
-            img: 'images/House.png'
+            img: '../images/House.png'
         },
         {
             name: 'House',
-            img: 'images/House.png'
+            img: '../images/House.png'
         },
         {
             name: 'Lich',
-            img: 'images/Lich.png'
+            img: '../images/Lich.png'
         },
         {
             name: 'Lich',
-            img: 'images/Lich.png'
+            img: '../images/Lich.png'
         },
         {
             name: 'Metal Shield',
-            img: 'images/Metal Shield.png'
+            img: '../images/Metal Shield.png'
         },
         {
             name: 'Metal Shield',
-            img: 'images/Metal Shield.png'
+            img: '../images/Metal Shield.png'
         },
         {
             name: 'Wood Shield',
-            img: 'images/Wood Shield.png'
+            img: '../images/Wood Shield.png'
         },
         {
             name: 'Wood Shield',
-            img: 'images/Wood Shield.png'
+            img: '../images/Wood Shield.png'
         },
         {
             name: 'Spider Chair',
-            img: 'images/Spider Chair.png'
+            img: '../images/Spider Chair.png'
         },
         {
             name: 'Spider Chair',
-            img: 'images/Spider Chair.png'
+            img: '../images/Spider Chair.png'
         }
 
     ]
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function createBoard() {
         for (let i = 0; i < cardArray.length; i++) {
             const card = document.createElement('img')
-            card.setAttribute('src', 'images/Book.png')
+            card.setAttribute('src', '../images/Book.png')
             card.setAttribute('data-id', i)
             card.addEventListener('click', flipCard)
             grid.appendChild(card)
@@ -80,20 +80,20 @@ document.addEventListener('DOMContentLoaded', () => {
         const optionTwoId = cardsChosenId[1]
 
         if (optionOneId == optionTwoId) {
-            cards[optionOneId].setAttribute('src', 'images/Book.png')
-            cards[optionTwoId].setAttribute('src', 'images/Book.png')
+            cards[optionOneId].setAttribute('src', '../images/Book.png')
+            cards[optionTwoId].setAttribute('src', '../images/Book.png')
             alert('You have clicked the same image!')
         }
         else if (cardsChosen[0] === cardsChosen[1]) {
             alert('You found a match')
-            cards[optionOneId].setAttribute('src', 'images/White.png')
-            cards[optionTwoId].setAttribute('src', 'images/White.png')
+            cards[optionOneId].setAttribute('src', '../images/White.png')
+            cards[optionTwoId].setAttribute('src', '../images/White.png')
             cards[optionOneId].removeEventListener('click', flipCard)
             cards[optionTwoId].removeEventListener('click', flipCard)
             cardsWon.push(cardsChosen)
         } else {
-            cards[optionOneId].setAttribute('src', 'images/Book.png')
-            cards[optionTwoId].setAttribute('src', 'images/Book.png')
+            cards[optionOneId].setAttribute('src', '../images/Book.png')
+            cards[optionTwoId].setAttribute('src', '../images/Book.png')
             alert('Sorry, try again')
         }
         cardsChosen = []
