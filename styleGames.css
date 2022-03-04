@@ -1,6 +1,155 @@
+/* ------------------------------- Memory
 .grid{
     display: flex;
     flex-wrap: wrap;
     height: 300px;
     width: 400px;
 }
+*/
+
+/* ------------------------------- Whack a Mole
+.square {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+}
+
+.grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+}
+.mole{
+    background-image: url(images/Lich.png);
+    background-size: cover;
+}
+*/
+
+/* ------------------------------- Connect 4 
+.grid{
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 120px;
+    width: 140px;
+}
+
+.grid div{
+    height: 20px;
+    width: 20px;
+}
+
+.player-one{
+    background-color: red;
+    border-radius: 10px;
+}
+
+.player-two{
+    background-color: blue;
+    border-radius: 10px;
+}*/
+
+/* ------------------------------- Nokia Snake 
+.grid {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+  }
+  
+  .grid div {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .snake {
+    background-color: blue;
+  }
+  
+  .apple {
+    background-color: purple;
+  }
+*/
+
+/* ------------------------------- Space Invaders 
+.grid {
+	width: 300px;
+	height: 300px;
+	border: solid black 1px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid div {
+	width: 20px;
+	height: 20px;
+}
+
+.invader {
+	background-color: purple;
+	border-radius: 10px;
+}
+
+.shooter {
+	background-color: green;
+}
+
+.laser {
+	background-color: orange;
+}
+
+.boom {
+	background-color: red;
+}
+*/
+
+/* ------------------------------- Frogger */
+.grid {
+    border: 1px solid black;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.ending-block {
+    background-color: red;
+}
+
+.starting-block {
+    background-color: blue;
+}
+.l1, .l2, .l3 {
+    background-color: brown;
+}
+
+.l4, .l5 {
+    background-color: lightblue;
+}
+
+.c1 {
+    background-color: black;
+}
+
+.c2, .c3 {
+    background-color: lightgrey;
+}
+
+.frog {
+    background-color: green;
+}
+
+
+/* ------------------------------- Tetris */
+
+

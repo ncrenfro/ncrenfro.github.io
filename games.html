@@ -1,13 +1,314 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="styleGames.css"></link>
-        <script src="app.js" charset="utf-8"></script>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="styleGames.css">
+    <!-- Script at top for memory, connect 4, snake, & tetris-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap" rel="stylesheet">
+    <script src="app.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <!-- ----------------------------------------------------- Memory Game
     <h3>Score: <span id="result"></span></h3>
 
     <div class="grid">
 
     </div>
+    -->
+
+    <!-- ----------------------------------------------------- Whack a Mole
+    <h1>Whack a Mole</h1>
+
+    <h2>Your score: </h2>
+    <h2 id="score">0</h2>
+
+    <h2>Time Left: </h2>
+    <h2 id="time-left">60</h2>
+
+    <div class="grid">
+        <div class="square" id="1"></div>
+        <div class="square" id="2"></div>
+        <div class="square" id="3"></div>
+        <div class="square" id="4"></div>
+        <div class="square" id="5"></div>
+        <div class="square" id="6"></div>
+        <div class="square" id="7"></div>
+        <div class="square" id="8"></div>
+        <div class="square" id="9"></div>
+    </div>
+    -->
+
+    <!-- ----------------------------------------------------- Connect 4
+    <h2>The current player is: Player <span id='current-player'></span></h2>
+
+    <h3 id="result"></h3>
+
+    <div class="grid">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+    </div>
+    -->
+
+    <!-- ----------------------------------------------------- Snake 
+    <button class='start'>Start/Restart</button>
+    <div class='score'>Score:<span>0</span></div>
+
+    <div class='grid'>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    -->
+
+    <!-- ----------------------------------------------------- Space invaders 
+    <h1 class="results">0</h1>
+    <div class="grid"></div>
+    -->
+
+    <!-- ----------------------------------------------------- Frogger 
+    <h3>Seconds left: <span id="time-left">20</span></h3>
+    <h3>Result: <span id="result"></span></h3>
+
+    <button id="start-pause-button">Start/Pause</button>
+
+    <div class="grid">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="ending-block"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="log-left l1"></div>
+        <div class="log-left l2"></div>
+        <div class="log-left l3"></div>
+        <div class="log-left l4"></div>
+        <div class="log-left l5"></div>
+        <div class="log-left l1"></div>
+        <div class="log-left l2"></div>
+        <div class="log-left l3"></div>
+        <div class="log-left l4"></div>
+        <div class="log-right l5"></div>
+        <div class="log-right l1"></div>
+        <div class="log-right l2"></div>
+        <div class="log-right l3"></div>
+        <div class="log-right l4"></div>
+        <div class="log-right l5"></div>
+        <div class="log-right l1"></div>
+        <div class="log-right l2"></div>
+        <div class="log-right l3"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="car-left c1"></div>
+        <div class="car-left c2"></div>
+        <div class="car-left c3"></div>
+        <div class="car-left c1"></div>
+        <div class="car-left c2"></div>
+        <div class="car-left c3"></div>
+        <div class="car-left c1"></div>
+        <div class="car-left c2"></div>
+        <div class="car-left c3"></div>
+        <div class="car-right c1"></div>
+        <div class="car-right c2"></div>
+        <div class="car-right c3"></div>
+        <div class="car-right c1"></div>
+        <div class="car-right c2"></div>
+        <div class="car-right c3"></div>
+        <div class="car-right c1"></div>
+        <div class="car-right c2"></div>
+        <div class="car-right c3"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="starting-block frog"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    -->
+
+    <!-- ----------------------------------------------------- Tetris -->
+
+
+    <!-- Script at bottom for whack a mole, space invaders, frogger-->
+    
+</body>
+
+
 </html>
