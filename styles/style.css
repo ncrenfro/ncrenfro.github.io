@@ -170,6 +170,7 @@ a {
 }
 #NathanAbout{ /* Nathan */
 	padding: .5rem;
+	clear:both;
 }
 #NathanMainPic{ /* Nathan */
 	width: 200px;
@@ -181,12 +182,13 @@ a {
 #elite{
 	width:auto;
 	height:auto;
-	float: left;
-	clear: both;
+	float: right;
+	clear:none;
 	border-radius: 20px;
 	box-shadow: 5px 5px 5px #333333;
 	margin-top: 10px;
 }
+
 .ball {
     width: 100px;
     height: 100px;
@@ -197,7 +199,8 @@ a {
     animation: bounce 0.5s cubic-bezier(.5,0.05,1,.5);
     animation-direction: alternate;
     animation-iteration-count: infinite;
-    float:right;
+    
+	float: right;
 	clear: both;
   }
   @keyframes bounce {
@@ -266,6 +269,7 @@ a {
     display: flex;
     flex-wrap: wrap;
 	margin: auto;
+	background-color: rgb(161, 185, 161);
 }
 
 .gridFrog div {
@@ -275,21 +279,33 @@ a {
 
 .ending-block {
     background-color: red;
+	background-image: radial-gradient(blue,rgb(0, 0, 201), blue);
 }
 
 .starting-block {
     background-color: blue;
 }
-.l1, .l2, .l3 {
+.l1 {
     background-color: brown;
+	background-image: linear-gradient(rgb(100, 17, 17),brown, rgb(100, 17, 17));
+	border-radius: 5px 0px 0px 5px;
 }
-
+.l2 {
+    background-color: brown;
+	background-image: linear-gradient(rgb(100, 17, 17),brown, rgb(100, 17, 17));
+}
+.l3 {
+    background-color: brown;
+	background-image: linear-gradient(rgb(100, 17, 17),brown, rgb(100, 17, 17));
+	border-radius: 0px 5px 5px 0px;
+}
 .l4, .l5 {
     background-color: lightblue;
 }
 
 .c1 {
     background-color: black;
+	background-image: linear-gradient(black,grey, lightgrey, grey, black);
 }
 
 .c2, .c3 {
@@ -298,6 +314,9 @@ a {
 
 .frog {
     background-color: green;
+	background-image: radial-gradient(green, rgb(23, 90, 23), black);
+	border-radius: 10px;
+	
 }
 /*----------------------------side links--------------------------------------*/
 #SideLinks {
