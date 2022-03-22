@@ -204,8 +204,8 @@ a {
     animation-direction: alternate;
     animation-iteration-count: infinite;
     
-	float: right;
-	clear: both;
+	/* float: right;
+	clear: both; */
   }
   @keyframes bounce {
     from { transform: translate3d(0, 0, 0);     }
@@ -213,10 +213,10 @@ a {
   }
 /*----------------------------Snake--------------------------------------*/
 #snakeGame{
-	clear: left;
+	/*clear: left;*/
 	background-color: #226765;
 	width: 500px;
-	float: left;
+	/* float: left; */
 	padding: 1rem;
 	border-radius: 2rem;
 	margin-top: 1rem;
@@ -254,10 +254,10 @@ a {
 
 /*----------------------------frogger--------------------------------------*/
 #frogger{
-	clear: right;
+	/* clear: right; */
 	background-color: #226765;
 	width: 500px;
-	float: right;
+	/* float: right; */
 	padding: 1rem;
 	border-radius: 2rem;
 	margin-top: 1rem;
