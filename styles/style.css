@@ -68,9 +68,7 @@ a {
 	margin-bottom: 1.5rem;
 	overflow: hidden;
 }
-    #Banner a#BSULink{ /* Nathan */
-        /* float: left; */
-    }
+
 
 	#Banner nav { /* Nathan */
 		background-color: #AA6b39;
@@ -80,14 +78,6 @@ a {
         clear: both;
 
 	}
-
-		#Banner nav ul { /* Nathan */
-			text-align: center;
-		}
-
-		#Banner nav li { /* Nathan */
-			display: inline;
-		}
 
 		#Banner nav a { /* Nathan */
 			color: #DCDCDC;
@@ -122,10 +112,7 @@ a {
 	overflow: hidden;
 	font-size: 1.5rem;
 }
-#Banner img#NathanPNG{ /* Nathan */
-    /* float: right;
-	clear:none; */
-}
+
 
 .IframePages{ /* Nathan */
 	background-color: #ECECEC;
@@ -185,8 +172,8 @@ a {
 #elite{
 	width:auto;
 	height:auto;
-	float: right;
-	clear:none;
+	/* float: right;
+	clear:none; */
 	border-radius: 20px;
 	box-shadow: 5px 5px 5px #333333;
 	margin-top: 10px;
