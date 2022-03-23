@@ -69,7 +69,7 @@ a {
 	overflow: hidden;
 }
     #Banner a#BSULink{ /* Nathan */
-        float: left;
+        /* float: left; */
     }
 
 	#Banner nav { /* Nathan */
@@ -123,12 +123,10 @@ a {
 	font-size: 1.5rem;
 }
 #Banner img#NathanPNG{ /* Nathan */
-    float: right;
-	clear:none;
+    /* float: right;
+	clear:none; */
 }
-.WrapperMain h2#NABout{ /* Nathan */
-	clear:both;
-}
+
 .IframePages{ /* Nathan */
 	background-color: #ECECEC;
 	font-size: 1.5rem;	
@@ -142,13 +140,13 @@ a {
 #About{ /* Nathan */
 	color: black;
 	font-size: 3rem;
-	float:left;
+	float:center;
 }
 
 #Nathan{ /* Nathan */
 	font-family: 'Quintessential', cursive;
-	float: center;
-    clear: none;
+	/* float: center;
+    clear: none; */
 	margin-top: 5rem;
 }
 
@@ -174,7 +172,8 @@ a {
 }
 #NathanAbout{ /* Nathan */
 	padding: .5rem;
-	clear:both;
+
+	/* clear:both; */
 }
 #NathanMainPic{ /* Nathan */
 	width: 200px;
