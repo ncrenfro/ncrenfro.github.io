@@ -37,6 +37,7 @@
                     </div>
                     <button class="btn btn-light btn-lg btn-block">Speak!</button>
                     <button class="btn btn-danger btn-lg btn-block" id="help">Help</button>
+                    <button class="btn btn-dark btn-lg btn-block" id="hello">Hello</button>
                     <button class="btn btn-dark btn-lg btn-block" id="bathroom">Bathroom</button>
                     <button class="btn btn-dark btn-lg btn-block" id="hungry">Hungry</button>
                     <button class="btn btn-dark btn-lg btn-block" id="thirsty">Thirsty</button>
@@ -47,6 +48,7 @@
     </div>
     <script>
         let help = document.getElementById("help");
+        let hello  = document.getElementById("hello");
         let bathroom = document.getElementById("bathroom");
         let hungry = document.getElementById("hungry");
         let thirsty = document.getElementById("thirsty");
@@ -54,6 +56,9 @@
         
         help.addEventListener('click', event => {
             helpf();
+        });
+        hello.addEventListener('click', event => {
+            hellof();
         });
         bathroom.addEventListener('click', event => {
             bathroomf();
@@ -67,11 +72,16 @@
         poggers.addEventListener('click', event => {
             poggersf();
         });
-
+        hello.addEventListener('click', event => {
+            hellof();
+        });
 
 
         function helpf() {
             document.getElementById("text-input").value="help";
+        }
+        function helllof() {
+            document.getElementById("text-input").value="hello";
         }
         function bathroomf() {
             document.getElementById("text-input").value="bathroom";
